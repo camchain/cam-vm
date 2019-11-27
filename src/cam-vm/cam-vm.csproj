@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Copyright>2017-2019 Camchain</Copyright>
+    <AssemblyTitle>Neo.VM</AssemblyTitle>
+    <Description>Cam.VM</Description>
+    <Version>2.4.3</Version>
+    <Authors>CAM Chain</Authors>
+    <TargetFrameworks>netstandard1.6;net461</TargetFrameworks>
+    <AssemblyName>Cam.VM</AssemblyName>
+    <PackageId>Cam.VM</PackageId>
+    <PackageTags>CAM;VM</PackageTags>
+    <PackageProjectUrl>https://github.com/camchain/cam-vm</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/camchain/cam-vm.git</RepositoryUrl>
+    <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard1.6' ">1.6.0</NetStandardImplicitPackageVersion>
+    <RootNamespace>Cam.VM</RootNamespace>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net461' ">
+    <Reference Include="System.Numerics" />
+    <Reference Include="System" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+
+</Project>
