@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <Copyright>2017-2019 Camchain</Copyright>
-    <AssemblyTitle>Neo.VM</AssemblyTitle>
+    <AssemblyTitle>Cam.VM</AssemblyTitle>
     <Description>Cam.VM</Description>
     <Version>2.4.3</Version>
     <Authors>CAM Chain</Authors>
@@ -16,6 +16,7 @@
     <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard1.6' ">1.6.0</NetStandardImplicitPackageVersion>
     <RootNamespace>Cam.VM</RootNamespace>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'net461' ">

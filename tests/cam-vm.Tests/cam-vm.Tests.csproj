@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <RootNamespace>Neo.Test</RootNamespace>
+    <RootNamespace>Cam.Test</RootNamespace>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <IsPackable>false</IsPackable>
   </PropertyGroup>
@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\neo-vm\cam-vm.csproj" />
+    <ProjectReference Include="..\..\src\cam-vm\cam-vm.csproj" />
   </ItemGroup>
 
   <ItemGroup>
