@@ -11,7 +11,7 @@ mono: none
 dotnet: 2.1.300
 
 before_install:
-  - cd tests/neo-vm.Tests
+  - cd tests/cam-vm.Tests
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then ulimit -n 2048; fi
 
 script:
